@@ -6,4 +6,12 @@ class Perfil(object):
         self.email = email
         self.telefone = telefone
         self.nome_empresa = nome_empresa
-# Create your models here.
+        
+'''from django.db import models
+
+class Perfil(models.Model):
+
+    nome = models.CharField(max_length=255, null=False)
+    email = models.CharField(max_length=255, null=False)     
+    telefone = models.CharField(max_length=15, null=False)
+    nome_empresa = models.CharField(max_length=255, null=False) '''
