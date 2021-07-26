@@ -8,11 +8,11 @@
 
 		<input type="text" name="email" id="id_email"
 			class="form-control" placeholder="Email *"
-			required>{{form.email.value}}
+			required>
 
 		<input type="text" name="nome" id="id_nome"
 			class="form-control" placeholder="Nome *"
-			required>{{form.nome.value}}
+			required>
 	
 		<input type="password" name="senha" id="id_senha"
 			class="form-control" placeholder="Senha *"
@@ -20,11 +20,9 @@
 	
 		<input type="text" name="telefone" id="id_telefone"
 			class="form-control" placeholder="Telefone">
-      {{form.telefone.value}}
 
 		<input type="text" name="nome_empresa" id="id_nome_empresa"
-			class="form-control" placeholder="Empresa" >
-      {{form.nome_empresa.value}}
+			class="form-control" placeholder="Empresa">
 	
 		<hr/>
 
@@ -32,7 +30,6 @@
 			<div class="alert alert-danger">
 				<button type="button" class="close" data-dismiss='alert' aria-hidden='true'>&times;</button>
 				{{form.non_field_errors}}
-        
 			</div>
 		{% endif %}
 		<button class="btn btn-lg btn-primary btn-block" type="submit">Registrar</button>
